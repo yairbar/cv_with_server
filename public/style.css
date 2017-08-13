@@ -1,0 +1,234 @@
+
+
+
+.container {
+    width:1100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header {
+     height: 335px;
+    width: 100%;
+    padding: 35px;
+background-color: #232323;
+    display:flex;
+    
+   
+}
+
+
+
+.yellow {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+
+section {
+   
+
+}
+
+#pic {
+   
+   
+}
+
+#name
+{
+  margin:10PX;
+    padding-right: 20px;
+    font-size: 30PX;
+    color: #bfcfdd;
+  border-right: solid 3px rgba(128, 128, 128, 0.55);   
+}   
+
+#conectme {
+    
+ display: flex;
+    border-bottom:solid 3px rgba(128, 128, 128, 0.55); 
+}
+
+.liconect {
+    font-family: 'Droid Sans', sans-serif;
+     list-style-type: none;
+    color: dimgray;
+    margin-top: 50px;
+    font-size: 17px;
+    display: flex;
+ flex-direction: column;
+
+    
+}
+
+#contant {
+    
+    display: flex;
+    flex-direction:column;
+}
+
+#aboutMe {
+    font-family: 'Droid Sans', sans-serif;
+    color: dimgray;
+}
+
+li {
+    margin: 6px;
+}
+
+
+
+#experice {
+  
+ padding-top: 20PX;
+    padding-left: 20px;
+    color:#3131a3;
+    display: flex;
+}
+
+.senior {
+    height: 300px;
+    list-style-type: none;
+     display: flex;
+ flex-direction: column;
+justify-content: space-between;
+    font-size: 20px;
+}
+
+#lifacebook {
+width: 110%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top:solid 3px rgba(128, 128, 128, 0.55);
+    display: flex;
+    justify-content: space-around;
+     list-style-type: none;
+    color: #989898;
+    
+    
+}
+
+#facebook {
+
+}
+
+
+
+
+#ww {
+    display: flex;
+}
+
+#face {
+    
+    width: 110%;
+    
+}
+
+#proskills1 {
+    padding: 15PX;
+    height: 255px;
+    width: 300px;
+    background-color: #ebff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#proskills2 {
+    padding: 15PX;
+    height: 255px;
+    width: 300px;
+    background-color: #ebff00;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+}
+
+#EXP {
+    
+    display: flex;
+}
+
+
+progress[value] {
+      -webkit-appearance: none;
+   appearance: none;
+  
+  width: 250px;
+  height: 20px;
+}
+progress[value]::-webkit-progress-bar {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+progress[value]::-webkit-progress-value::before {
+  content: '80%';
+  position: absolute;
+  right: 0;
+  top: -125%;
+}
+progress[value]::-webkit-progress-value::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  border-radius: 100%;
+  right: 7px;
+  top: 7px;
+  background-color: white;
+}
+
+
+
+
+.education {
+     height: 240;
+    list-style-type: none;
+     display: flex;
+ flex-direction: column;
+justify-content: space-around;
+}
+
+#edu {
+    display: flex;
+    background-color: #d8d8d1;
+}
+
+.hobbies {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 23px;
+}
+
+#lang {
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+
+
+
+
+
+
+
+
